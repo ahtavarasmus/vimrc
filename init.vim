@@ -40,8 +40,7 @@ nnoremap ga <C-^>
 nnoremap <C-j> <C-d>zz
 nnoremap <C-k> <C-u>zz
 nnoremap gy ggVG"+y
-nnoremap <leader>c :!g++ -std=c++17 problem.cpp<enter>
-nnoremap <leader>r :!./a.out<enter>
+nnoremap <leader>r :!g++ -std=c++17 problem.cpp<enter><enter>:!./a.out<enter>
 nnoremap <leader>e :edit 
 
 
